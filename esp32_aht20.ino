@@ -1,3 +1,5 @@
+//接线方式：D16,D17分别对应oled屏幕的SCL和SDA
+//D22对应bmp280的SCL，D21对应BMP280的SDA
 #include <Arduino.h>
 #include <U8g2lib.h>
 #ifdef U8X8_HAVE_HW_SPI
